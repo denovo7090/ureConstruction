@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UreConstruction</string>
+    <string name="navigateButton">Direction</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="buttonP1">Buttonp1</string>
+    <string name="buttonP2">Buttonp2</string>
+</resources>
