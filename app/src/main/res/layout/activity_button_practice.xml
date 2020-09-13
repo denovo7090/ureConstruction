@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ButtonPractice">
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/buttonP1"
         android:onClick="goToMapsActivity"
+        android:text="@string/buttonP1"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="106dp" />
 
@@ -19,8 +20,37 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/buttonP2"
         android:onClick="goToMainActivity"
+        android:text="@string/buttonP2"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="250dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/addressText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:text="Name" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/openNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToopenNavi"
+        android:text="OpenNavi" />
+
+    <Button
+        android:id="@+id/openNavigation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenNaviJava" />
+
+
 </LinearLayout>
